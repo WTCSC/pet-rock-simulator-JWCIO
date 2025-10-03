@@ -92,85 +92,85 @@ def gamestart():
         if mood == "mood":
             print(f"{name} looks very {mood}.")
         action = input("What would you like to do? (feed, play, clean, drink, rest, check stats, quit)").lower()
-        if action == "feed":
+        if action.lower() == "feed":
             feed()
-        elif action == "play":
+        elif action.lower() == "play":
             play()
-        elif action == "clean":
+        elif action.lower() == "clean":
             clean()
-        elif action == "drink":
+        elif action.lower() == "drink":
             drink()
-        elif action == "rest":
+        elif action.lower() == "rest":
             rest()
-        elif action == "read":
+        elif action.lower() == "read":
             read()
-        elif action == "punish":
+        elif action.lower() == "punish":
             punish()
-        elif action == "nuke":  
+        elif action.lower() == "nuke":  
             nuke()
-        elif action == "run doom on rock":
+        elif action.lower() == "run doom on rock":
             rundoomonrock()
-        elif action == "github":
+        elif action.lower() == "github":
             github()
-        elif action == "hvitur":
+        elif action.lower() == "hvitur":
             hvitur()
-        elif action == "abandon":
+        elif action.lower() == "abandon":
             abandon()
-        elif action == "rename":
+        elif action.lower() == "rename":
             rename()
-        elif action == "slap":
+        elif action.lower() == "slap":
             slap()
-        elif action == "hug":
+        elif action.lower() == "hug":
             hug()
-        elif action == "meditate":
+        elif action.lower() == "meditate":
             meditate()
-        elif action == "throw":
+        elif action.lower() == "throw":
             throw()
-        elif action == "chisel":
+        elif action.lower() == "chisel":
             chisel()
-        elif action == "roll":
+        elif action.lower() == "roll":
             roll()
-        elif action == "reducto":
+        elif action.lower() == "reducto":
             reducto()
-        elif action == "accio": 
+        elif action.lower() == "accio": 
             accio()
-        elif action == "use to sharpen sword":
+        elif action.lower() == "use to sharpen sword":
             usetosharpensword()
-        elif action == "find partner":
+        elif action.lower() == "find partner":
             findpartner()
-        elif action == "teach":
+        elif action.lower() == "teach":
             teach()
-        elif action == "mud bath":
+        elif action.lower() == "mud bath":
             mudbath()
-        elif action == "sunbathe":
+        elif action.lower() == "sunbathe":
             sunbathe()
-        elif action == "pou":
+        elif action.lower() == "pou":
             pou()
-        elif action == "visit doctor":
+        elif action.lower() == "visit doctor":
             visitdoctor()
-        elif action == "angry birds":
+        elif action.lower() == "angry birds":
             angrybirds()
-        elif action == "watch movie":
+        elif action.lower() == "watch movie":
             watchmovie()
-        elif action == "gandalf":
+        elif action.lower() == "gandalf":
             gandalf()
-        elif action == "voldemort":
+        elif action.lower() == "voldemort":
             voldemort()
-        elif action == "curse":
+        elif action.lower() == "curse":
             curse()
-        elif action == "gpt":
+        elif action.lower() == "gpt":
             gpt()
-        elif action == "secret":
+        elif action.lower() == "secret":
             secret()
-        elif action == "avada kedavra":
+        elif action.lower() == "avada kedavra":
             avadakedavra()
-        elif action == "sauron":
+        elif action.lower() == "sauron":
             sauron()
-        elif action == "list easter eggs":
+        elif action.lower() == "list easter eggs":
             listeastereggs()
-        elif action == "check stats":
+        elif action.lower() == "check stats":
             check_stats()
-        elif action == "quit":
+        elif action.lower() == "quit":
             print(f"Goodbye! Thanks for taking care of {name}.")
             break
         else:
